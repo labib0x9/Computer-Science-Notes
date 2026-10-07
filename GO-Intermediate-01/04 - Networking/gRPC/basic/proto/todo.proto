@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package todoPackage;
+
+option go_package = "test/todo";  // Change module-name (go mod) here, {module_name}/{package_name}
+
+service Todo {
+    rpc createTodo(TodoItem) returns(TodoItem);
+    rpc readTodo(VoidNoParameter) returns(TodoItems);
+    rpc readTodoStream(VoidNoParameter) returns(stream TodoItem);
+}
+
+message TodoItem {
+    int32 id = 1;
+    string title = 2;
+}
+
+message TodoItems {
+    repeated TodoItem item = 1;
+}
+
+message VoidNoParameter {}
