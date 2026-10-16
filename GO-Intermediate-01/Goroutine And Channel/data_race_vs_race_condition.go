@@ -183,3 +183,34 @@ func main() {
 	wg.Wait()
 	fmt.Println("It should be 10000, GOT=", value)
 }
+
+// Race Condition and No Data Race
+/*
+func main() {
+
+	var mu sync.Mutex
+	var wg sync.WaitGroup
+	var finisherId int
+
+	for i := range 10000 {
+		wg.Add(1)
+		go func(id int, finisherId *int) {
+			defer wg.Done()
+			mu.Lock()
+			*finisherId = id
+			mu.Unlock()
+		}(i, &finisherId)
+	}
+
+	wg.Wait()
+
+	switch finisherId % 3 {
+	case 0:
+		fmt.Println("Tic")
+	case 1:
+		fmt.Println("Tac")
+	case 2:
+		fmt.Println("Toe")
+	}
+}
+*/
