@@ -1,4 +1,7 @@
-# Database Engineering (Upcoming)
+---
+title: Database Engineering (Upcoming)
+date: 2026-10-24
+---
 
 What? I am also trying to store data. 😄
 

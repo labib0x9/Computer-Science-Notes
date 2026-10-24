@@ -1,4 +1,7 @@
-# Programming Languages
+---
+title: Programming Languages
+date: 2026-10-24
+---
 
 Now that we know the concepts, how do we implement them? With programming, of course.
 

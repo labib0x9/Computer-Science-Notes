@@ -1,4 +1,7 @@
-# Computer Science Notes
+---
+title: Computer Science Notes
+date: 2026-10-24
+---
 
 Hi, Myself 9xZER0.<br>
 Welcome to my personal notes. More is on the way, so stay tuned.

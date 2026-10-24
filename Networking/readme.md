@@ -1,4 +1,7 @@
-# Network Engineering (Upcoming)
+---
+title: Network Engineering (Upcoming)
+date: 2026-10-24
+---
 
 Oww, communication! We communicate every day.
 

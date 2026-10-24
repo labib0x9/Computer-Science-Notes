@@ -1,4 +1,7 @@
-# Data Structures and Algorithms
+---
+title: Data Structures and Algorithms (Upcoming)
+date: 2026-10-24
+---
 
 Building from scratch is a wonderful journey.
 
