@@ -3,7 +3,7 @@ title: "ASCII String to Integer Conversion in 8086 Assembly (ASM)"
 date: 2026-10-25
 tags:
   - asm
-  - 8086
+  - "8086"
   - arithmetic
   - code-explained
 summary: "Converts an ASCII numeric string to a 16-bit integer using bit shifts and addition in 8086 assembly."

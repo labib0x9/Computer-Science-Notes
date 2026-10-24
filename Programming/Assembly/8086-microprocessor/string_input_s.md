@@ -3,7 +3,7 @@ title: "Buffered String Input with Pre-Initialized Terminator in 8086 Assembly (
 date: 2026-10-25
 tags:
   - asm
-  - 8086
+  - "8086"
   - strings
   - code-explained
 summary: "Reads user input into a pre-terminated buffer using DOS function 0Ah and procedures in 8086 assembly."

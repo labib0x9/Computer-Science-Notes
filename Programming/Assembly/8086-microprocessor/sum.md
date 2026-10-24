@@ -3,7 +3,7 @@ title: "Addition and Subtraction of User Input in 8086 Assembly (ASM)"
 date: 2026-10-25
 tags:
   - asm
-  - 8086
+  - "8086"
   - arithmetic
   - code-explained
 summary: "Prompts for two single-digit numbers, computes sum and difference, and displays multi-digit results in 8086 assembly."

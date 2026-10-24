@@ -3,7 +3,7 @@ title: "Printing Newlines in 8086 Assembly (ASM)"
 date: 2026-10-25
 tags:
   - asm
-  - 8086
+  - "8086"
   - dosbox
   - code-explained
 summary: "Demonstrates printing multi-line prompts and DOS carriage return/line feed sequences in 8086 assembly."

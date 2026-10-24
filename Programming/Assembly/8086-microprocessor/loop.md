@@ -3,7 +3,7 @@ title: "Loop Instruction in 8086 Assembly (ASM)"
 date: 2026-10-25
 tags:
   - asm
-  - 8086
+  - "8086"
   - loops
   - code-explained
 summary: "Demonstrates hardware counter-based looping using the CX register and loop instruction in 8086 assembly."

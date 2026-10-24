@@ -3,7 +3,7 @@ title: "Hello World in 8086 Assembly (ASM)"
 date: 2026-10-25
 tags:
   - asm
-  - 8086
+  - "8086"
   - dosbox
   - code-explained
 summary: "Prints Hello, world! to standard output in 16-bit DOS real mode using 8086 interrupt 21h."

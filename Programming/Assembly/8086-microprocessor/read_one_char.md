@@ -3,7 +3,7 @@ title: "Single Character Input and Output in 8086 Assembly (ASM)"
 date: 2026-10-25
 tags:
   - asm
-  - 8086
+  - "8086"
   - character-io
   - code-explained
 summary: "Prompts for and reads a single character from the console and echoes it back in 8086 assembly."

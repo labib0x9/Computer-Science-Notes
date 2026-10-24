@@ -3,7 +3,7 @@ title: "Buffered String Input and Sentinel Appending in 8086 Assembly (ASM)"
 date: 2026-10-25
 tags:
   - asm
-  - 8086
+  - "8086"
   - strings
   - code-explained
 summary: "Reads a string with DOS function 0Ah and dynamically appends a '$' delimiter to display it in 8086 assembly."

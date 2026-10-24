@@ -3,7 +3,7 @@ title: "Character-by-Character String Output Loop in 8086 Assembly (ASM)"
 date: 2026-10-25
 tags:
   - asm
-  - 8086
+  - "8086"
   - loops
   - code-explained
 summary: "Reads a buffered string using DOS service 0Ah and iterates through characters to print each with a newline in 8086 assembly."

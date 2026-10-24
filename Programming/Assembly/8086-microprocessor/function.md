@@ -3,7 +3,7 @@ title: "Procedures and Character I/O in 8086 Assembly (ASM)"
 date: 2026-10-25
 tags:
   - asm
-  - 8086
+  - "8086"
   - procedures
   - code-explained
 summary: "Demonstrates modular procedures and character input/output in 16-bit DOS real mode using interrupt 21h."
