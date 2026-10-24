@@ -1,3 +1,5 @@
+// https://github.com/attractivechaos/klib
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
