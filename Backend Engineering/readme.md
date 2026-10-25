@@ -9,4 +9,8 @@ I used to think the backend was just CRUD, but then I found it is much more than
 
 Some concepts overlap with Networking and Operating Systems, so please refer to those sections for them.
 
-I will use JavaScript for client-side code, Go for the main backend code and C for low-level concepts like sockets.
+Languages used in these notes:
+
+- **JavaScript** for client-side code
+- **Go** for the main backend code
+- **C** for low-level concepts like sockets

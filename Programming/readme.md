@@ -11,7 +11,8 @@ Now that we know the concepts, how do we implement them? With programming, of co
 
 I will cover only three programming languages (C, C++ and Golang), because those are the only ones I know. I will update this if I ever switch to another.
 
-For Golang, I might use a debugger and a profiler to understand what is happening. For C and C++, I will cover only the syntax and concepts, and maybe some OOP for C++.
+- **Go**: I may use a debugger and a profiler to look at what is happening at runtime.
+- **C and C++**: I cover only syntax and concepts, maybe some OOP for C++.
 
 ---
 

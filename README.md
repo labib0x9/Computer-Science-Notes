@@ -14,12 +14,12 @@ I tried to learn many things, but I forgot most of them and had to look them up 
 
 You will find the following topics here:
 
-- Programming Languages (C, C++, Golang)
-- Data Structures and Algorithms (From scratch, mostly in C)
-- Operating Systems
-- Networking
-- Databases (Postgres)
-- Backend Engineering (Fundamentals)
+- **Programming Languages**: C, C++ and Go
+- **Data Structures and Algorithms**: built from scratch, mostly in C
+- **Operating Systems**
+- **Networking**
+- **Databases**: with Postgres
+- **Backend Engineering**: the fundamentals
 
 ## Contact
 
