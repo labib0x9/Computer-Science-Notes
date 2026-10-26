@@ -5,7 +5,6 @@ tags:
   - c
   - gcc
   - compilation
-summary: The four stages GCC runs to turn C source into an executable, and the command for each
 ---
 
 ## Keep all intermediate files
