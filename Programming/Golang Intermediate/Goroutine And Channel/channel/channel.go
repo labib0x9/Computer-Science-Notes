@@ -57,13 +57,22 @@ func main() {
 	var dataStrem chan any
 	dataStrem = make(chan any)
 
-	// Receive Only
-	var dataStrem <-chan any
-	dataStrem = make(<-chan any)
+	// // Receive Only
+	// var dataStrem <-chan any
+	// dataStrem = make(<-chan any)
 
-	// Send Only
-	var dataStrem chan<- any
-	dataStrem = make(chan<- any)
+	// // Send Only
+	// var dataStrem chan<- any
+	// dataStrem = make(chan<- any)
 
-	_ = dataStrem
+	// _ = dataStrem
+
+	var receiveChan <-chan any
+	var sendChan chan<- any
+
+	receiveChan = dataStrem
+	sendChan = dataStrem
+
+	_ = receiveChan
+	_ = sendChan
 }
