@@ -51,3 +51,19 @@ func CHAN() {
 	ch2 <- "SGG"
 	<-ch2
 }
+
+func main() {
+	// Read and Write
+	var dataStrem chan any
+	dataStrem = make(chan any)
+
+	// Receive Only
+	var dataStrem <-chan any
+	dataStrem = make(<-chan any)
+
+	// Send Only
+	var dataStrem chan<- any
+	dataStrem = make(chan<- any)
+
+	_ = dataStrem
+}
