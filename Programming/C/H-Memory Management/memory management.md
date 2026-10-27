@@ -566,6 +566,13 @@ Requirements and hints:
 - Test with AddressSanitizer: allocate everything, free everything, allocate again, and check you get the same addresses back.
 - Bonus: grow the pool by adding a new chunk when the free list is empty. Count how many blocks are in use. Add a lock for thread safety.
 
+```c
+#include <string.h>
+
+memmove(destination, source, size_of_memory);
+memmove(&arr[idx + 1], &arr[idx], sizeof(int) * 3);   // shift 3 ints one position to the right
+```
+
 ---
 
 # Summary

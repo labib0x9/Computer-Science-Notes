@@ -21,6 +21,7 @@ Also these C codes are tested on Mac and Linux using the docker image.
 - Compilation Phases
 - Memory Management
 - Multithreading
+- Sockets
 
 ## Dev Containers - VS Code Extension
 
@@ -36,22 +37,7 @@ Also these C codes are tested on Mac and Linux using the docker image.
 
 - `memmove`: copies bytes from one memory region to another, and it is safe when the two regions overlap. **Always check how many bytes you are moving**, and make sure the destination has enough room. Both the source and the destination must be pointers.
 
-```c
-#include <string.h>
-
-memmove(destination, source, size_of_memory);
-memmove(&arr[idx + 1], &arr[idx], sizeof(int) * 3);   // shift 3 ints one position to the right
-```
-
 - `bool`: before C23, you must include the `<stdbool.h>` header. From C23 onward, `bool` is a built-in keyword.
-
-### Header Files for Socket Programming
-
-- `<unistd.h>`: `close()`, `read()`, `write()`
-- `<sys/socket.h>`: `socket()`, `bind()`, `listen()`, `accept()`
-- `<netinet/in.h>`: `sockaddr_in`, `htons()`, `ntohs()`
-- `<arpa/inet.h>`: `inet_pton()`, `inet_ntop()`
-- `<errno.h>`: the `errno` variable for error codes
 
 
 ## Alias
