@@ -567,3 +567,7 @@ Building these will cement my understanding.
 - [Memory Management in C](https://www.youtube.com/watch?v=rJrd2QMVbGM&t=30s)
 - [Socket to Me: Where Do Sockets Live in Go? - Gabbi Fisher](https://www.youtube.com/watch?v=pGR3r0UhoS8)
 - [Asynchronous Networking Patterns - Filippo Valsorda](https://www.youtube.com/watch?v=afSiVelXDTQ)
+
+- [A Go Programmer's Guide to Syscalls - Liz Rice](https://www.youtube.com/watch?v=01w7viEZzXQ&t=1078s)
+- [Containers From Scratch • Liz Rice ](https://www.youtube.com/watch?v=8fi7uSYlOdc&t=13s)
+- [Understanding Golang's sync.Once](https://cristiancurteanu.com/understanding-go-sync-once/)
