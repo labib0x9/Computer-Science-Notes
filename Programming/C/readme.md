@@ -17,21 +17,13 @@ Also these C codes are tested on Mac and Linux using the docker image.
 - Pointers
 - Strings
 - Custom Headers
-- Capstone Project Ideas
 - Compilation Phases
 - Memory Management
 - Multithreading
 - Sockets
+- Capstone Project
 
 ## Dev Containers - VS Code Extension
-
-## Resources
-
-- [Stack Frame and GDB](https://www.youtube.com/watch?v=7dMTCdFM2ss)
-- [Garbage Collector](https://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/)
-- [Memory Management in C](https://www.youtube.com/watch?v=rJrd2QMVbGM&t=30s)
-- [Socket to Me: Where Do Sockets Live in Go? - Gabbi Fisher](https://www.youtube.com/watch?v=pGR3r0UhoS8)
-- [Asynchronous Networking Patterns - Filippo Valsorda](https://www.youtube.com/watch?v=afSiVelXDTQ)
 
 ## C Notes
 
